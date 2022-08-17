@@ -1,4 +1,4 @@
-# Yut
+# Yut (Yut-Nori)
 
 Korean traditional board game where players try to take their board pieces around the board before their opponent
 

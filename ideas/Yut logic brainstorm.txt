@@ -1,0 +1,9 @@
+Yut coding Ideas
+
+
+declare all variables first (playersPiece, turn, yutThrown, etc.)
+
+use .map() to map out the locations for the yut board using arrays
+
+use if statements for shortcuts
+

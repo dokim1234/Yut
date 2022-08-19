@@ -1,6 +1,6 @@
 # Yut (Yut-Nori)
 
-https://dokim1234.github.io/Yut/
+Play here! https://dokim1234.github.io/Yut/
 
 Korean traditional board game where players try to take their board pieces around the board before their opponent
 

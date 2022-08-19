@@ -54,6 +54,11 @@ body {
   justify-content: center;
 }
 
+.row {
+  display: grid;
+  align-content: center;
+}
+
 #corner {
   width: 70px;
   height: 70px;

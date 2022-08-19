@@ -1,5 +1,6 @@
 body {
   display: grid;
+  text-align: center;
   justify-content: center; 
 }
 
@@ -29,7 +30,6 @@ body {
 
 .inner-layer {   
   display: grid;   
-  
   grid-area: 2 / 2 / 6 / 6;
 }
 
@@ -38,15 +38,14 @@ body {
   justify-content: space-between;
 }
 
-.center {
-  display: flex;
-  align-content: space-between;
-  justify-content: center;
-}
-
 .third-layer {
   display: flex;
   justify-content: space-evenly;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 .column {

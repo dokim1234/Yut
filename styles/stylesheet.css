@@ -27,29 +27,29 @@ body {
   text-align: center;
 }
 
-.board1 {   
+.inner-layer {   
   display: grid;   
   
   grid-area: 2 / 2 / 6 / 6;
 }
 
-.board2 {
+.second-layer {
   display: flex;
   justify-content: space-between;
 }
 
-.board4 {
+.center {
   display: flex;
   align-content: space-between;
   justify-content: center;
 }
 
-.board5 {
+.third-layer {
   display: flex;
   justify-content: space-evenly;
 }
 
-.board6 {
+.column {
   display: grid;
   justify-content: center;
 }

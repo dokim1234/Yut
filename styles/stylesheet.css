@@ -1,13 +1,11 @@
 body {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-content: center; 
 }
 
 #yut-board {
   display: grid;  
-  align-content: space-between;
   grid-template-columns: auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto;
   background-color: #0367b8;
   gap: 20px 20px;
   margin: 20px;
@@ -20,10 +18,8 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: px;
   background-color: white;
   font-size: 20px;
-  padding: px;
   text-align: center;
 }
 
@@ -32,11 +28,9 @@ body {
   grid-area: 2 / 2 / 6 / 6;
 }
 
-.board2, .board3 {
+.board2 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-content: space-between;
 }
 
 .board4 {

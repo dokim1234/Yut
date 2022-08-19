@@ -6,12 +6,15 @@ body {
 #yut-board {
   display: grid;  
   grid-template-columns: auto auto auto auto auto auto;
-  justify-content:space-around;
   background-color: #0367b8;
   gap: 20px 20px;
   margin: 20px;
   padding: 20px;
   border-radius: 20px;
+}
+
+#yut-board > div {
+  align-content: center;
 }
 
 .board {
@@ -47,8 +50,8 @@ body {
 }
 
 .board6 {
-  display: flex;
-  justify-content: right;
+  display: grid;
+  justify-content: center;
 }
 
 #corner {
